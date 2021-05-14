@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page3</title>
+    
+</head>
+<body>  
+
+    <!-- Links for all pages of website -->
+    <div>
+        <a href="index.html">Home Page</a>
+        <a href="projects.html">My Projects</a>
+        <a href="contact.html">Contact Me</a>
+    </div>
+
+    <h1>I'm an expert on classy hats!</h1><br>
+
+    <image src="hat-purple.jpg" width=200 alt="Riv in purple wearing a hat"/>
+    <image src="hat-bathrobe.jpg" width=200 alt="Riv in vintage robe wearing hat"/>
+    <image src="hat-monkey.jpg" width=200 alt="Riv in monkey pjs wearing hat"/>
+
+ <!-- Unordered LIST wrapped in a div AKA sectioned off for CSS styling     -->
+    <div>
+        <h2>But my other incredible skills include being GREAT at: </h2>
+    
+        <ul>
+            <li>Multitasking</li>
+            <li>Socializing</li>
+            <li>and being available for impromptu meetings</li>
+        </ul>
+
+        <image src="Riv-bath.jpg" width=250 alt="Riv in bath"/>
+        <image src="Riv-social.jpg" width=250 alt="Riv on couch with dolls"/>
+
+    </div>    
+
+    <div>
+        <h1>If you'd like my expertise on your project(s),</h1>
+        <h2>Contact me HERE:</h2>
+        
+<!-- form with fieldset (section of related elements)and legend -->
+        <form>
+            <fieldset>
+                <legend>Your Info:</legend>
+                <label>Name:</label>
+                <input>
+                <br>
+                <label>Email:</label>
+                <input>
+                <br>
+                <label>Project Type:</label>
+                <input>
+                <br>
+                <label>Specific Questions:</label>
+                <input>
+                <br>               
+            </fieldset>
+        </div>
+<!-- I was trying to do this but couldn't get it to work -->
+            <!-- <a href="entered.html">
+                <input type="submit" value="Enter"> 
+            </a>  -->
+
+        </form>
+
+<!--I came across this resource while googling what to do:
+     https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link 
+I think the problem is because I'm using a fieldset, it's only supposed to be a section of the form 
+and not the whole thing (I'm only using one fieldset right now though).
+Which means putting the submit button inside the form with the fieldset would be like submitting only 
+part of the form and isn't allowed for obvious reasons
+
+So it needs its OWN form to function correctly-->
+        <form method="get" action="entered.html">
+            <button type="submit">Submit</button>
+        </form>
+
+</body>
+
+</html>

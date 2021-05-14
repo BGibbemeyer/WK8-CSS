@@ -1,0 +1,43 @@
+body {
+    background-color:pink;
+}
+
+.links {
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+.title {
+    color: rgb(35, 35, 184);
+    text-shadow: lightslategray 2px 2px;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+#sesamest {
+    background-color: white;
+}
+
+.h4 {
+    text-align: center;
+    background-color:mediumseagreen;
+    margin-right: 450px;
+    margin-left:450px;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: "→";
+  }
+ 
+#congrats {
+    color: rgb(204, 16, 16);
+    text-shadow: red 2px 2px;
+}
+
+#JK {
+    color: rgb(2, 2, 68);
+}
